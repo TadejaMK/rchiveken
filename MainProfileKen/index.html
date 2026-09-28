@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>档案 | Ken</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/images/rchive.ico">
+</head>
+<body>
+
+  <div id="loader">
+    <div class="loader-grid" aria-hidden="true"></div>
+    <div class="loader-tag">SYS.BOOT // <em>ARCHIVE</em></div>
+    <div class="loader-logo">My <em>Archive.</em></div>
+    <div class="loader-status" id="loaderStatus">INITIALIZING<span class="loader-dots">...</span></div>
+    <div class="loader-bar-wrap">
+      <div class="loader-bar-fill"></div>
+    </div>
+  </div>
+
+  <div class="hud-grid" aria-hidden="true"></div>
+
+  <div class="glass-ambient" aria-hidden="true">
+    <div class="glass-orb glass-orb-1"></div>
+    <div class="glass-orb glass-orb-2"></div>
+    <div class="glass-orb glass-orb-3"></div>
+  </div>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">🃜 🃚 🃖 🃁 🂭 🂺</a>
+      <button class="nav-burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">[ About ]</a>
+        <a href="#art" class="nav-link">[ Art ]</a>
+        <a href="#achievements" class="nav-link">[ Achievements ]</a>
+        <a href="#skills" class="nav-link">[ Skills ]</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">
+          <span class="theme-icon theme-icon-dark">☾</span>
+          <span class="theme-icon theme-icon-light">☀</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-tag reveal">[ Ken's · 2020&mdash;2025 · Selected Records ]</div>
+      <h1 class="hero-title reveal">
+        <span class="line">My</span>
+        <span class="line italic">Archive.</span>
+        <span class="hero-underline" aria-hidden="true"></span>
+      </h1>
+      <p class="hero-sub reveal">Cats. Art. People I love. <span class="hero-sub-meta">// 12 records logged</span></p>
+    </div>
+    <div class="hero-corner hero-corner-bl" aria-hidden="true">SCROLL ↓</div>
+    <div class="hero-corner hero-corner-br" aria-hidden="true">VOL. 01</div>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="section-header reveal">
+      <div class="section-label">[ 01 // Profiles ]</div>
+      <h2 class="section-title">About</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-cards">
+
+        <article class="profile-card reveal glass-card" data-delay="0">
+          <div class="profile-img-wrap lightbox-trigger"
+               data-src="assets/images/Ken.JPG"
+               data-title="Ken"
+               data-sub="This is my archive. A personal collection of things I love art, moments, people."
+               data-tag="About"
+               data-link="https://www.instagram.com/_ken.archive/"
+               data-link-label="Instagram →">
+            <img src="assets/images/Ken.JPG" alt="Ken" loading="lazy" decoding="async" />
+            <div class="img-click-hint">Click to expand</div>
+          </div>
+          <div class="profile-info">
+            <span class="card-code">NODE_01</span>
+            <h3>Ken</h3>
+            <p>This is my archive. A personal collection of things I love art, moments, people.</p>
+          </div>
+        </article>
+
+        <article class="profile-card reveal glass-card" data-delay="100">
+          <div class="profile-img-wrap lightbox-trigger"
+               data-src="assets/images/jhaezel.jpg"
+               data-title="Jhaezel"
+               data-sub="My girlfriend. The person who makes every ordinary day worth archiving."
+               data-tag="About"
+               data-link="https://www.facebook.com/jhaezel.delina.7"
+               data-link-label="Facebook →">
+            <img src="assets/images/jhaezel.jpg" alt="Jhaezel" loading="lazy" decoding="async" />
+            <div class="img-click-hint">Click to expand</div>
+          </div>
+          <div class="profile-info">
+            <span class="card-code">NODE_02</span>
+            <h3>Jhaezel</h3>
+            <p>My girlfriend. The person who makes every ordinary day worth archiving.</p>
+          </div>
+        </article>
+
+        <article class="profile-card reveal glass-card" data-delay="200">
+          <div class="profile-img-wrap lightbox-trigger"
+               data-src="assets/images/CATS.jpg"
+               data-title="The Cats"
+               data-sub="Pani, Noo, and Luni my three chaos agents and the best part of coming home."
+               data-tag="About"
+               data-link="https://www.facebook.com/27kenarchive"
+               data-link-label="See More →">
+            <img src="assets/images/CATS.jpg" alt="The Cats" loading="lazy" decoding="async" />
+            <div class="img-click-hint">Click to expand</div>
+          </div>
+          <div class="profile-info">
+            <span class="card-code">NODE_03</span>
+            <h3>The Cats</h3>
+            <p>Pani, Noo, and Luni my three chaos agents and the best part of coming home.</p>
+          </div>
+        </article>
+
+        <article class="profile-card reveal glass-card" data-delay="200">
+          <div class="profile-img-wrap lightbox-trigger"
+               data-src="assets/images/Pani.jpg"
+               data-title="The Oldest"
+               data-sub="Pani, The oldest one also the biggest and lastly the sleepy one."
+               data-tag="About"
+               data-link="https://www.facebook.com/27kenarchive"
+               data-link-label="See More →">
+            <img src="assets/images/Pani.jpg" alt="Pani" loading="lazy" decoding="async" />
+            <div class="img-click-hint">Click to expand</div>
+          </div>
+          <div class="profile-info">
+            <span class="card-code">NODE_04</span>
+            <h3>The Oldest</h3>
+            <p>Pani, The oldest one also the biggest and lastly the sleepy one.</p>
+          </div>
+        </article>
+
+        <article class="profile-card reveal glass-card" data-delay="200">
+          <div class="profile-img-wrap lightbox-trigger"
+               data-src="assets/images/Luni.jpg"
+               data-title="The Gentle"
+               data-sub="Luni, The 2nd oldest the most gentle of them three."
+               data-tag="About"
+               data-link="https://www.facebook.com/27kenarchive"
+               data-link-label="See More →">
+            <img src="assets/images/Luni.jpg" alt="Luni" loading="lazy" decoding="async" />
+            <div class="img-click-hint">Click to expand</div>
+          </div>
+          <div class="profile-info">
+            <span class="card-code">NODE_05</span>
+            <h3>The Gentle</h3>
+            <p>Luni, The 2nd oldest the most gentle of them three.</p>
+          </div>
+        </article>
+
+        <article class="profile-card reveal glass-card" data-delay="200">
+          <div class="profile-img-wrap lightbox-trigger"
+               data-src="assets/images/Noo.jpg"
+               data-title="The Chaotic"
+               data-sub="Noo, The youngest literally the most chaotic of them three but also the clingiest."
+               data-tag="About"
+               data-link="https://www.facebook.com/27kenarchive"
+               data-link-label="See More →">
+            <img src="assets/images/Noo.jpg" alt="Noo" loading="lazy" decoding="async" />
+            <div class="img-click-hint">Click to expand</div>
+          </div>
+          <div class="profile-info">
+            <span class="card-code">NODE_06</span>
+            <h3>The Chaotic</h3>
+            <p>Noo, The youngest literally the most chaotic of them three but also the clingiest.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="art-section" id="art">
+    <div class="section-header reveal">
+      <div class="section-label">[ 02 // Curated ]</div>
+      <h2 class="section-title">Art I Love</h2>
+    </div>
+
+    <div class="art-grid">
+
+      <article class="art-card reveal" data-delay="0">
+        <div class="art-img-wrap lightbox-trigger"
+             data-src="assets/images/favart1.jpg"
+             data-title="Hymen, oh Hyménée!"
+             data-sub="Juan Luna"
+             data-tag="Classical"
+             data-link="https://en.wikipedia.org/wiki/Hymen,_oh_Hym%C3%A9n%C3%A9e!"
+             data-link-label="Read on Wikipedia →">
+          <img src="assets/images/favart1.jpg" alt="Hymen, oh Hyménée!" loading="lazy" decoding="async" />
+          <div class="img-click-hint">Click to expand</div>
+        </div>
+        <div class="art-meta">
+          <span class="art-year">[ Classical ]</span>
+          <h3>Hymen, oh Hyménée!</h3>
+          <p>Juan Luna</p>
+        </div>
+      </article>
+
+      <article class="art-card reveal" data-delay="100">
+        <div class="art-img-wrap lightbox-trigger"
+             data-src="assets/images/favart2.jpg"
+             data-title="Fubao the Famous Panda"
+             data-sub="Seulgi (Digital Artist)"
+             data-tag="Digital"
+             data-link="https://www.youtube.com/@hi_sseulgi_"
+             data-link-label="Visit Artist →">
+          <img src="assets/images/favart2.jpg" alt="Fubao" loading="lazy" decoding="async" />
+          <div class="img-click-hint">Click to expand</div>
+        </div>
+        <div class="art-meta">
+          <span class="art-year">[ Digital ]</span>
+          <h3>Fubao the Famous Panda</h3>
+          <p>Seulgi (Digital Artist)</p>
+        </div>
+      </article>
+
+      <article class="art-card reveal" data-delay="200">
+        <div class="art-img-wrap lightbox-trigger"
+             data-src="assets/images/favart3.jpg"
+             data-title="Crouching Figure of Atlas"
+             data-sub="Unknown — MET 1992"
+             data-tag="Sculpture"
+             data-link="https://commons.wikimedia.org/wiki/File:Crouching_Figure_of_Atlas_MET_1992.304.jpg"
+             data-link-label="View on Wikimedia →">
+          <img src="assets/images/favart3.jpg" alt="Atlas MET" loading="lazy" decoding="async" />
+          <div class="img-click-hint">Click to expand</div>
+        </div>
+        <div class="art-meta">
+          <span class="art-year">[ Sculpture ]</span>
+          <h3>Crouching Figure of Atlas</h3>
+          <p>Unknown MET 1992</p>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="section-header reveal" style="margin-top: 80px;">
+      <div class="section-label">[ 03 // Original ]</div>
+      <h2 class="section-title">My Works</h2>
+    </div>
+
+    <div class="art-grid">
+
+      <article class="art-card reveal" data-delay="0">
+        <div class="art-img-wrap lightbox-trigger"
+             data-src="assets/images/byme2025.jpg"
+             data-title="Reflections of the Forgotten"
+             data-sub="KenArchive"
+             data-tag="2025"
+             data-link="https://www.instagram.com/p/DJwcknnT7LnOWVClER5GFxwBFJ4OPwj_nZ5RhA0/"
+             data-link-label="View on Instagram →">
+          <img src="assets/images/byme2025.jpg" alt="Reflections of the Forgotten" loading="lazy" decoding="async" />
+          <div class="img-click-hint">Click to expand</div>
+        </div>
+        <div class="art-meta">
+          <span class="art-year">[ 2025 ]</span>
+          <h3>Reflections of the Forgotten</h3>
+          <p>KenArchive</p>
+        </div>
+      </article>
+
+      <article class="art-card reveal" data-delay="100">
+        <div class="art-img-wrap lightbox-trigger"
+             data-src="assets/images/byme20251.jpg"
+             data-title="Tahimik Na Nakaraan"
+             data-sub="KenArchive"
+             data-tag="2025"
+             data-link="https://www.instagram.com/p/DJrAWeJTGM1t9VBbUZtC30hk6eU-2ne30Xqp1g0/"
+             data-link-label="View on Instagram →">
+          <img src="assets/images/byme20251.jpg" alt="Tahimik Na Nakaraan" loading="lazy" decoding="async" />
+          <div class="img-click-hint">Click to expand</div>
+        </div>
+        <div class="art-meta">
+          <span class="art-year">[ 2025 ]</span>
+          <h3>Tahimik Na Nakaraan</h3>
+          <p>KenArchive</p>
+        </div>
+      </article>
+
+      <article class="art-card reveal" data-delay="200">
+        <div class="art-img-wrap lightbox-trigger"
+             data-src="assets/images/byme20253.jpg"
+             data-title="Like a poem left unfinished"
+             data-sub="KenArchive"
+             data-tag="2025"
+             data-link="https://www.instagram.com/p/DJgzSdzT7iaYGXnjq6QZFJ7kLiLl8yC1NOZaK80/"
+             data-link-label="View on Instagram →">
+          <img src="assets/images/byme20253.jpg" alt="Like a poem left unfinished" loading="lazy" decoding="async" />
+          <div class="img-click-hint">Click to expand</div>
+        </div>
+        <div class="art-meta">
+          <span class="art-year">[ 2025 ]</span>
+          <h3>Like a poem left unfinished</h3>
+          <p>KenArchive</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="projects-section" id="projects">
+    <div class="section-header reveal">
+      <div class="section-label">[ PROJECTS // 01–02 ]</div>
+      <h2 class="section-title">My Personal Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+
+    <button class="project-card reveal glass-card" data-delay="0" type="button"
+            id="ticketOfOmoideProject" aria-label="View Ticket of Omoide project details">
+      <div class="project-top">
+        <span class="module-code">TICKET OF OMOIDE // WEB PROJECT</span>
+        <span class="project-status">LIVE</span>
+      </div>
+      <h3>Ticket of Omoide</h3>
+      <p class="project-desc">
+        Every memory deserves a ticket, a web memory folder.
+      </p>
+      <span class="project-url">ticketofomoide.netlify.app ↗</span>
+    </button>
+
+    <button class="project-card reveal glass-card" data-delay="100" type="button"
+            id="stampQuestProject" aria-label="View Stamp Quest project details">
+      <div class="project-top">
+        <span class="module-code">STAMP QUEST // WEB PROJECT</span>
+        <span class="project-status">LIVE</span>
+      </div>
+      <h3>Stamp Quest</h3>
+      <p class="project-desc">
+        Make your stamp collection more fun and interactive with Stamp Quest.
+      </p>
+      <span class="project-url">stampquest.netlify.app ↗</span>
+    </button>
+
+    </div>
+
+    <div class="project-modal" id="ticketOfOmoideModal" role="dialog" aria-modal="true" aria-labelledby="ticketOfOmoideModalTitle" hidden>
+      <div class="project-modal-backdrop" id="ticketOfOmoideModalBackdrop"></div>
+      <div class="project-modal-panel glass-panel">
+        <button class="project-modal-close" id="ticketOfOmoideModalClose" type="button" aria-label="Close details">✕</button>
+        <div class="project-modal-head">
+          <span class="module-code">TICKET OF OMOIDE // DETAILS</span>
+          <span class="project-status">LIVE</span>
+        </div>
+        <h3 id="ticketOfOmoideModalTitle">Ticket of Omoide</h3>
+        <p class="project-desc">
+          A short description of this project goes here.
+        </p>
+        <div class="project-modal-actions">
+          <a class="pill-btn" href="https://ticketofomoide.netlify.app/" target="_blank" rel="noopener noreferrer">Open Ticket of Omoide →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-modal" id="stampQuestModal" role="dialog" aria-modal="true" aria-labelledby="stampQuestModalTitle" hidden>
+      <div class="project-modal-backdrop" id="stampQuestModalBackdrop"></div>
+      <div class="project-modal-panel glass-panel">
+        <button class="project-modal-close" id="stampQuestModalClose" type="button" aria-label="Close details">✕</button>
+        <div class="project-modal-head">
+          <span class="module-code">STAMP QUEST // DETAILS</span>
+          <span class="project-status">LIVE</span>
+        </div>
+        <h3 id="stampQuestModalTitle">Stamp Quest</h3>
+        <p class="project-desc">
+          A short description of this project goes here.
+        </p>
+        <div class="project-modal-actions">
+          <a class="pill-btn" href="https://stampquest.netlify.app/" target="_blank" rel="noopener noreferrer">Open Stamp Quest →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="achievements-section" id="achievements">
+    <div class="section-header reveal">
+      <div class="section-label">[ 04 // Logged Wins ]</div>
+      <h2 class="section-title">Achievements</h2>
+    </div>
+
+    <div class="module-grid">
+
+      <article class="module-card reveal" data-delay="0">
+        <div class="module-top">
+          <span class="module-code">MODULE_01</span>
+          <svg class="module-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 4h12v3a6 6 0 0 1-6 6 6 6 0 0 1-6-6V4z" stroke="currentColor" stroke-width="1.3"/>
+            <path d="M6 5H3a3 3 0 0 0 3 4M18 5h3a3 3 0 0 1-3 4" stroke="currentColor" stroke-width="1.3"/>
+            <path d="M12 13v3M9 20h6M10 16h4a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1z" stroke="currentColor" stroke-width="1.3"/>
+          </svg>
+        </div>
+        <span class="module-category">Game Expo // Software Engineering</span>
+        <h3>Best Score</h3>
+        <p class="module-org">ACLC College Meycauayan</p>
+        <div class="module-bottom">STATUS: <em>AWARDED</em></div>
+      </article>
+
+      <article class="module-card reveal" data-delay="100">
+        <div class="module-top">
+          <span class="module-code">MODULE_02</span>
+          <svg class="module-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 4h12v3a6 6 0 0 1-6 6 6 6 0 0 1-6-6V4z" stroke="currentColor" stroke-width="1.3"/>
+            <path d="M6 5H3a3 3 0 0 0 3 4M18 5h3a3 3 0 0 1-3 4" stroke="currentColor" stroke-width="1.3"/>
+            <path d="M12 13v3M9 20h6M10 16h4a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1z" stroke="currentColor" stroke-width="1.3"/>
+          </svg>
+        </div>
+        <span class="module-category">Game Expo // Software Engineering</span>
+        <h3>Best Audio</h3>
+        <p class="module-org">ACLC College Meycauayan</p>
+        <div class="module-bottom">STATUS: <em>AWARDED</em></div>
+      </article>
+
+      <article class="module-card reveal" data-delay="200">
+        <div class="module-top">
+          <span class="module-code">MODULE_03</span>
+          <svg class="module-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 4h12v3a6 6 0 0 1-6 6 6 6 0 0 1-6-6V4z" stroke="currentColor" stroke-width="1.3"/>
+            <path d="M6 5H3a3 3 0 0 0 3 4M18 5h3a3 3 0 0 1-3 4" stroke="currentColor" stroke-width="1.3"/>
+            <path d="M12 13v3M9 20h6M10 16h4a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1z" stroke="currentColor" stroke-width="1.3"/>
+          </svg>
+        </div>
+        <span class="module-category">Expo // Entrepreneurship</span>
+        <h3>Entrepreneur of the Year</h3>
+        <p class="module-org">ACLC College Meycauayan</p>
+        <div class="module-bottom">STATUS: <em>AWARDED</em></div>
+      </article>
+
+       <article class="module-card reveal" data-delay="0">
+        <div class="module-top">
+          <span class="module-code">MODULE_04</span>
+          <svg class="module-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 4h12v3a6 6 0 0 1-6 6 6 6 0 0 1-6-6V4z" stroke="currentColor" stroke-width="1.3"/>
+            <path d="M6 5H3a3 3 0 0 0 3 4M18 5h3a3 3 0 0 1-3 4" stroke="currentColor" stroke-width="1.3"/>
+            <path d="M12 13v3M9 20h6M10 16h4a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1z" stroke="currentColor" stroke-width="1.3"/>
+          </svg>
+        </div>
+        <span class="module-category">Web Design // Website Development</span>
+        <h3>Best Web design</h3>
+        <p class="module-org">STI College Meycauayan</p>
+        <div class="module-bottom">STATUS: <em>AWARDED</em></div>
+      </article>
+    </div>
+  </section>
+
+    <section class="skills-section" id="skills">
+  <div class="section-header reveal">
+    <div class="section-label">[ 05 // Toolset ]</div>
+    <h2 class="section-title">What I Know.</h2>
+  </div>
+
+  <div class="skills-grid">
+
+    <article class="skill-card reveal glass-card" data-delay="0">
+      <div class="skill-name">HTML</div>
+      <div class="skill-stars" data-rating="4"></div>
+      <div class="skill-level">Proficient</div>
+    </article>
+
+    <article class="skill-card reveal glass-card" data-delay="60">
+      <div class="skill-name">CSS</div>
+      <div class="skill-stars" data-rating="4.3"></div>
+      <div class="skill-level">Proficient</div>
+    </article>
+
+    <article class="skill-card reveal glass-card" data-delay="120">
+      <div class="skill-name">MySQL</div>
+      <div class="skill-stars" data-rating="3"></div>
+      <div class="skill-level">Intermediate</div>
+    </article>
+
+    <article class="skill-card reveal glass-card" data-delay="180">
+      <div class="skill-name">GameMaker</div>
+      <div class="skill-stars" data-rating="3.5"></div>
+      <div class="skill-level">Proficient</div>
+    </article>
+
+    <article class="skill-card reveal glass-card" data-delay="240">
+      <div class="skill-name">JavaScript</div>
+      <div class="skill-stars" data-rating="3"></div>
+      <div class="skill-level">Intermediate</div>
+    </article>
+
+    <article class="skill-card reveal glass-card" data-delay="300">
+      <div class="skill-name">C#</div>
+      <div class="skill-stars" data-rating="3"></div>
+      <div class="skill-level">Intermediate</div>
+    </article>
+
+    <article class="skill-card reveal glass-card" data-delay="360">
+      <div class="skill-name">C++</div>
+      <div class="skill-stars" data-rating="2.5"></div>
+      <div class="skill-level">Developing</div>
+    </article>
+
+     <article class="skill-card reveal glass-card" data-delay="360">
+      <div class="skill-name">Java</div>
+      <div class="skill-stars" data-rating="2.5"></div>
+      <div class="skill-level">Developing</div>
+    </article>
+
+    <article class="skill-card reveal glass-card" data-delay="360">
+      <div class="skill-name">Cisco Packet Tracer</div>
+      <div class="skill-stars" data-rating="2.2"></div>
+      <div class="skill-level">Developing</div>
+    </article>
+
+    <article class="skill-card reveal glass-card" data-delay="360">
+      <div class="skill-name">Nodejs</div>
+      <div class="skill-stars" data-rating="2.2"></div>
+      <div class="skill-level">Developing</div>
+    </article>
+
+    <article class="skill-card reveal glass-card" data-delay="360">
+      <div class="skill-name">Reactjs</div>
+      <div class="skill-stars" data-rating="2.2"></div>
+      <div class="skill-level">Developing</div>
+    </article>
+
+    <article class="skill-card reveal glass-card" data-delay="360">
+      <div class="skill-name">Yarn package manager</div>
+      <div class="skill-stars" data-rating="2.2"></div>
+      <div class="skill-level">Developing</div>
+    </article>
+
+    <article class="skill-card reveal glass-card" data-delay="360">
+      <div class="skill-name">TailwindCSS</div>
+      <div class="skill-stars" data-rating="2.2"></div>
+      <div class="skill-level">Developing</div>
+    </article>
+
+    <article class="skill-card reveal glass-card" data-delay="360">
+      <div class="skill-name">Vite</div>
+      <div class="skill-stars" data-rating="2.2"></div>
+      <div class="skill-level">Developing</div>
+    </article>
+
+     <article class="skill-card reveal glass-card" data-delay="360">
+      <div class="skill-name">Typescript</div>
+      <div class="skill-stars" data-rating="3.2"></div>
+      <div class="skill-level">Developing</div>
+    </article>
+  </div>
+</section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <span class="footer-logo">MYrchive</span>
+        <span class="footer-copy">© 2025 Archive Index</span>
+      </div>
+      <div class="footer-right">
+        <span class="footer-country">🇵🇭 Philippines</span>
+        <span class="footer-time" id="footerTime"></span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-inner glass-panel">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+      <div class="lightbox-img-wrap">
+        <img src="" alt="" id="lightboxImg" loading="lazy" decoding="async" />
+      </div>
+      <div class="lightbox-caption">
+        <span class="lightbox-tag" id="lightboxTag"></span>
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxSub"></p>
+        <a href="#" target="_blank" id="lightboxLink" class="pill-btn lightbox-pill">Visit Source →</a>
+      </div>
+    </div>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous">‹</button>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next">›</button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
