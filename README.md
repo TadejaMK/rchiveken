@@ -1,17 +1,8 @@
-<div align="center">
-
-```
- ┌──────────────────────────────────────────┐
- │  SYS.BOOT // ARCHIVE                     │
- │  INITIALIZING...  ████████████████ 100%  │
- └──────────────────────────────────────────┘
-```
-
 # My Archive.
 
 **Cats. Art. People I love.**
 
-*A personal archive of 2020 to 2025, presented as a retro system boot.*
+A personal archive of 2020 to 2025, presented as a retro system boot.
 
 [![Live Site](https://img.shields.io/badge/Live_Site-krchive.netlify.app-00C7B7?style=for-the-badge)](https://krchive.netlify.app/)
 
@@ -19,8 +10,6 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
-
-</div>
 
 ---
 
@@ -105,11 +94,3 @@ GitHub: [YOUR-USERNAME](https://github.com/TadejaMK)
 ## License
 
 Copyright 2025 Ken. All rights reserved. Personal photos and original artwork may not be reused without permission.
-
----
-
-<div align="center">
-
-`MYrchive // 2025 // END OF FILE`
-
-</div>
