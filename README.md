@@ -89,7 +89,7 @@ The site is hosted on Netlify. Linking this repository (Site configuration, Buil
 **Ken**
 
 Website: [krchive.netlify.app](https://krchive.netlify.app/)
-GitHub: [YOUR-USERNAME](https://github.com/TadejaMK)
+GitHub: [TadejaMK](https://github.com/TadejaMK)
 
 ## License
 
