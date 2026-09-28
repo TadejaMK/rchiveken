@@ -100,7 +100,7 @@ The site lives on **Netlify**. Link this repository (Site configuration → Buil
 
 **Ken** 🇵🇭
 
-🌐 [krchive.netlify.app](https://krchive.netlify.app/)  ·  🐙 [GitHub](https://github.com/YOUR-USERNAME)
+🌐 [krchive.netlify.app](https://krchive.netlify.app/)  ·  🐙 [GitHub](https://github.com/TadejaMK)
 
 ## 📜 License
 
