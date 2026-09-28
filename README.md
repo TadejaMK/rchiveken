@@ -7,59 +7,58 @@
  └──────────────────────────────────────────┘
 ```
 
-# 🗂️ My Archive.
+# My Archive.
 
-**Cats. Art. People I love.** 🐈🎨💛
+**Cats. Art. People I love.**
 
-*A personal archive of 2020 to 2025, dressed up as a retro system boot.*
+*A personal archive of 2020 to 2025, presented as a retro system boot.*
 
-[![Live Site](https://img.shields.io/badge/🌐_Live_Site-krchive.netlify.app-00C7B7?style=for-the-badge)](https://krchive.netlify.app/)
+[![Live Site](https://img.shields.io/badge/Live_Site-krchive.netlify.app-00C7B7?style=for-the-badge)](https://krchive.netlify.app/)
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
-![Made in PH](https://img.shields.io/badge/Made_in-Philippines_🇵🇭-blue?style=flat-square)
 
 </div>
 
 ---
 
-## 👋 What is this?
+## About
 
-My Archive is part portfolio, part scrapbook. It's where I log the things worth keeping: the people and pets who make life better, art that stops me in my tracks, my own creative work, the projects I build, and the wins along the way.
+My Archive is part portfolio, part scrapbook. It documents the people and pets who matter to me, art I admire, my original creative work, the projects I build, and the achievements along the way.
 
-Think of it as a digital museum with a hacker-terminal soul. 🖥️✨
+The site is styled as a digital museum with a terminal-inspired interface.
 
-## ✨ Features
+## Features
 
-| | Feature | What it does |
+| Feature | Description |
+|---|---|
+| **Boot intro** | A terminal-style startup sequence greets every visitor |
+| **Profiles** | Expandable cards for the people and pets in my life |
+| **Art I Love** | Curated classical, digital, and sculpture favorites |
+| **My Works** | Original pieces with a click-to-expand lightbox |
+| **Projects** | Live builds that visitors can open and use |
+| **Achievements** | A log of awards from school competitions |
+| **Skills** | The toolset, with honest proficiency levels |
+| **Theme toggle** | Switch between light and dark mode |
+| **Responsive design** | Optimized for desktop and mobile |
+
+## Featured Projects
+
+| Project | Description | Link |
 |---|---|---|
-| 🚀 | **Boot intro** | A terminal-style startup sequence greets every visitor |
-| 👤 | **Profiles** | Expandable cards for the people (and cats) in my life |
-| 🖼️ | **Art I Love** | Curated classical, digital, and sculpture favorites |
-| 🎨 | **My Works** | Original pieces with a click-to-expand lightbox |
-| 🛠️ | **Projects** | Live builds you can actually open and play with |
-| 🏆 | **Achievements** | A log of awards from school competitions |
-| 📊 | **Skills** | The toolset, with honest proficiency levels |
-| 🌗 | **Theme toggle** | Switch between light and dark mode |
-| 📱 | **Responsive** | Looks good on desktop and mobile |
+| **Ticket of Omoide** | A web memory folder where every memory gets its own ticket | [Open](https://ticketofomoide.netlify.app/) |
+| **Stamp Quest** | An interactive way to make stamp collecting more fun | [Open](https://stampquest.netlify.app/) |
 
-## 🎟️ Featured Projects
+## Built With
 
-| Project | What it is | Try it |
-|---|---|---|
-| 🎫 **Ticket of Omoide** | A web memory folder where every memory gets its own ticket | [Open →](https://ticketofomoide.netlify.app/) |
-| 📮 **Stamp Quest** | Make stamp collecting more fun and interactive | [Open →](https://stampquest.netlify.app/) |
+- **HTML5** for structure
+- **CSS3** for the terminal look and theming
+- **JavaScript** for the boot sequence, lightbox, and theme toggle
+- **Netlify** for hosting
 
-## 🧰 Built With
-
-- 🟧 **HTML5** for structure
-- 🟦 **CSS3** for the terminal look and theming
-- 🟨 **JavaScript** for the boot sequence, lightbox, and theme toggle
-- 🟩 **Netlify** for hosting
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 krchive/
@@ -71,45 +70,46 @@ krchive/
 └── README.md
 ```
 
-> 📝 Adjust this tree to match your actual folders.
+> Adjust this tree to match your actual folders.
 
-## 💻 Run It Locally
+## Run Locally
 
 ```bash
-# 1. Clone the repo
+# 1. Clone the repository
 git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
 
-# 2. Step inside
+# 2. Enter the project folder
 cd YOUR-REPO
 
 # 3. Open index.html in your browser
 ```
 
-Want auto-reload while you edit? Use the VS Code **Live Server** extension. ⚡
+For auto-reload while editing, use the VS Code **Live Server** extension.
 
-## 🚢 Deployment
+## Deployment
 
-The site lives on **Netlify**. Link this repository (Site configuration → Build & deploy → Link repository) and every push to `main` redeploys automatically. Commit, push, done. 🎉
+The site is hosted on Netlify. Linking this repository (Site configuration, Build and deploy, Link repository) redeploys the site automatically on every push to `main`.
 
-## 🙏 Credits
+## Credits
 
-- Featured artworks in **Art I Love** belong to their respective artists. 💐
-- Original works under **My Works** are mine.
+- Featured artworks in **Art I Love** belong to their respective artists.
+- Original works under **My Works** are by me.
 
-## 👨‍💻 Author
+## Author
 
-**Ken** 🇵🇭
+**Ken**
 
-🌐 [krchive.netlify.app](https://krchive.netlify.app/)  ·  🐙 [GitHub](https://github.com/TadejaMK)
+Website: [krchive.netlify.app](https://krchive.netlify.app/)
+GitHub: [YOUR-USERNAME](https://github.com/TadejaMK)
 
-## 📜 License
+## License
 
-© 2025 Ken. All rights reserved. Personal photos and original artwork may not be reused without permission.
+Copyright 2025 Ken. All rights reserved. Personal photos and original artwork may not be reused without permission.
 
 ---
 
 <div align="center">
 
-`MYrchive © 2025 // END OF FILE` 🌙
+`MYrchive // 2025 // END OF FILE`
 
 </div>
